@@ -32,7 +32,7 @@
   <packaging>war</packaging>
 
   <name>JPetStore Demo 6</name>
-  <url>http://www.mybatis.org</url>
+ <url>http://www.mybatis.org</url>
 
   <scm>
     <url>http://github.com/mybatis/jpetstore-6</url>
@@ -219,7 +219,7 @@
           <artifactId>dependency-check-maven</artifactId>
           <version>${dependency.check.maven.version}</version>
           <configuration>
-            <!-- <failBuildOnCVSS>${dependency.check.maven.failBuildOnCVSS}</failBuildOnCVSS> -->
+            <failBuildOnCVSS>${dependency.check.maven.failBuildOnCVSS}</failBuildOnCVSS>
             <formats>HTML,XML</formats>
           </configuration>
           <executions>
